@@ -1,2 +1,3 @@
 --color
---require spec_helper
+--require spec_helper # location of this file is spec/spec_helper.rb
+--fail-fast # https://blog.makersacademy.com/rspec-failing-fast-make-life-quicker-3e238bbd97b8#.xjjs6j6ug

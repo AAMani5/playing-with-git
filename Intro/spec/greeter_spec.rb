@@ -1,4 +1,4 @@
-require 'greeter'
+require '../lib/greeter' # rspec not recogonising without the relative path
 
 describe 'Greeter' do
   it 'greets Rice' do

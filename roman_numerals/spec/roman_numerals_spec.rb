@@ -11,4 +11,10 @@ describe "Roman_numerals" do
   it "outputs V when given 5" do
     expect(roman_numerals(5)).to eq "V"
   end
+  it "outputs XXXV when given 35" do
+    expect(roman_numerals(35)).to eq "XXXV"
+  end
+  it "outputs MMM when given 3000" do
+    expect(roman_numerals(3000)).to eq "MMM"
+  end
 end

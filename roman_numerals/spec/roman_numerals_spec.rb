@@ -17,4 +17,7 @@ describe "Roman_numerals" do
   it "outputs MMM when given 3000" do
     expect(roman_numerals(3000)).to eq "MMM"
   end
+  it "outputs MCMXXIX when given 1929" do
+    expect(roman_numerals(1929)).to eq "MCMXXIX"
+  end
 end
